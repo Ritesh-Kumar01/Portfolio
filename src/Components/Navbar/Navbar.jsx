@@ -1,10 +1,18 @@
 import React from 'react'
-
+import './Navbar.css'
 const Navbar = () => {
   return (
-    <div>
-        <h1>this is my portfolio Website</h1>
-    </div>
+    <>
+       <nav>
+          <h2>Das Grune</h2>
+          <div id="class2">
+             <a href="#">About</a>
+             <a href="#">Projects</a>
+             <a href="#">Services</a>
+             <a href="#">Let's Talk</a>
+          </div>
+       </nav>
+    </>
   )
 }
 

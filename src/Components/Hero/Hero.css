@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #d5ff40;
+}
+section{
+    /* background-color: #a24b4b; */
+    padding: 60px 110px;
+}
+div .herotext1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: #a24b4b; */
+}
+.herotext1 h1{
+    font-size: 140px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 150px;
+
+}
+
+.herotext1 .video{
+    height: 100px;
+    width: 400px;
+    background-color: #000;
+    border-radius:50px;
+    margin-top: 23px;
+    margin-right: 120px;
+    background-image: url('https://images.unsplash.com/photo-1543158266-0066955047b1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 7px;
+}
+.video .play{
+    height: 100%;
+    width: 90px;
+    background-color: #000000;
+    border: 4px solid #ffffff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play i{
+    font-size: 50px;
+    color: #ffffff;
+    
+}
+
+
+div .herotext2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    /* background-color: #a24b4b; */
+}
+.herotext2 h1{
+    font-size: 140px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 150px;
+    margin-top: 20px;
+}
+.herotext2 p{
+    width: 600px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 100;
+    color: grey;
+}
+
+.buttonss{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #d5ff40;
+    gap: 20px;
+}
+
+.button1{
+    height: 60px;
+    width: 280px;
+    font-size: large;
+    font-weight: 200;
+    align-items: center;
+    color: grey;
+    border: 3px solid grey;
+    border-radius: 50px;
+    padding: 20px 45px;
+    margin-top: 50px;
+}
+
+.image{
+    height: 1200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: #000;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url('https://i.pinimg.com/1200x/c6/a9/7e/c6a97ef083594f0cd2472cf1002a1006.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
